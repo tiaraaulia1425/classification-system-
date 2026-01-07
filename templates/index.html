@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <script>
+        // Apply theme immediately before page renders
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <title>AI Flower Classifier -Beranda</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="{{ url_for('index') }}" class="nav-brand">
+                <i class="fas fa-spa"></i>
+                <span>AI Flower Classifier</span>
+            </a>
+            <div class="nav-links">
+                <a href="{{ url_for('index') }}" class="nav-link active">Beranda</a>
+                <a href="{{ url_for('clasify_page') }}" class="nav-link">Klasifikasi</a>
+                <a href="{{ url_for('search_page') }}" class="nav-link">Pencarian</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section" style="padding-top: 110px;">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Teknologi AI Canggih</span>
+                </div>
+                <h1 class="hero-title">Identifikasi Bunga dengan<br><span class="gradient-text">Kecerdasan Buatan</span>
+                </h1>
+                <p class="hero-description">
+                    Jelajahi dunia bunga yang menakjubkan dengan teknologi AI canggih. Upload gambar, gunakan kamera,
+                    atau cari informasi tentang ratusan spesies bunga dari seluruh dunia.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-href="{{ url_for('clasify_page') }}"
+                        onclick="window.location.href=this.dataset.href">
+                        <i class="fas fa-camera"></i>
+                        Mulai Klasifikasi
+                    </button>
+                    <button class="btn btn-secondary" data-href="{{ url_for('search_page') }}"
+                        onclick="window.location.href=this.dataset.href">
+                        <i class="fas fa-search"></i>
+                        Cari Bunga
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-logo-card">
+                    <div class="hero-logo-surface">
+                        <i class="fas fa-spa hero-logo-icon" aria-label="AI Flower Logo"></i>
+                    </div>
+                    <div class="hero-logo-caption">
+                        <h3>Analisis Cerdas</h3>
+                        <p>Klasifikasi instan dengan teknologi AI canggih</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kenali Dunia Bunga dengan Lebih Baik</h2>
+                <p class="section-subtitle">
+                    Website AI Flower Classifier adalah platform inovatif yang memudahkan Anda untuk mengenali dan
+                    mempelajari berbagai jenis bunga dari seluruh dunia. Dengan akurasi tinggi dan antarmuka yang mudah
+                    digunakan, kami menyediakan ketersediaan sistem lebih dari satu cara untuk mengidentifikasi dan
+                    mencari informasi lengkap tentang bunga favorit Anda.
+                </p>
+            </div>
+
+            <!-- What is AI Flower Classifier -->
+            <div class="info-card glass-card">
+                <div class="info-grid">
+                    <div class="info-text">
+                        <h3>Apa Itu AI Flower Classifier?</h3>
+                        <p>AI Flower Classifier adalah sistem klasifikasi bunga berbasis machine learning yang dapat
+                            mengidentifikasi gambar bunga dan mencocokkan dengan database lengkap kami. Sistem ini
+                            mendukung:</p>
+                        <ul>
+                            <li>Deteksi berbagai spesies bunga dengan akurasi tinggi</li>
+                            <li>Informasi lengkap tentang karakteristik, habitat, dan cara perawatan</li>
+                            <li>Interface user-friendly dengan berbagai metode input</li>
+                        </ul>
+                        <div class="badge-group">
+                            <span class="badge badge-green">Machine Learning</span>
+                            <span class="badge badge-blue">Computer Vision</span>
+                            <span class="badge badge-purple">Deep Learning</span>
+                        </div>
+                    </div>
+                    <div class="info-visual">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Cerdas & Akurat</h4>
+                                <p>Menggunakan algoritma deep learning terbaru yang mampu mengidentifikasi bunga dengan
+                                    tingkat akurasi tinggi</p>
+                                <div class="stat-number">91</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Fitur Unggulan</h2>
+                <p class="section-subtitle">Nikmati berbagai fitur canggih yang dirancang untuk pengalaman identifikasi
+                    bunga terbaik</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <div class="feature-icon gradient-green">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>Upload Gambar</h3>
+                    <p>Upload foto bunga dari galeri Anda dan dapatkan hasil identifikasi dalam hitungan detik.
+                        Mendukung format JPEG, PNG, dan lainnya.</p>
+                </div>
+
+                <div class="feature-card glass-card">
+                    <div class="feature-icon gradient-blue">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Kamera Real-time</h3>
+                    <p>Gunakan kamera langsung untuk mengidentifikasi bunga secara real-time. Arahkan kamera ke bunga
+                        dan dapatkan hasil instant sebelum diambil.</p>
+                </div>
+
+                <div class="feature-card glass-card">
+                    <div class="feature-icon gradient-cyan">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Pencarian Cerdas</h3>
+                    <p>Cari informasi tentang bunga berdasarkan nama, karakteristik, atau kategori dengan sistem
+                        pencarian pintar kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cara Kerja Sistem</h2>
+                <p class="section-subtitle">Proses identifikasi bunga menggunakan teknologi AI yang canggih dan mudah
+                    digunakan</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon gradient-green">
+                        <i class="fas fa-upload"></i>
+                    </div>
+                    <h3>Upload/Capture</h3>
+                    <p>Upload gambar atau gunakan kamera untuk mengambil foto bunga yang ingin diidentifikasi</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon gradient-blue">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Analysis</h3>
+                    <p>Sistem AI menganalisis karakteristik visual menggunakan deep learning untuk identifikasi akurat
+                    </p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon gradient-purple">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Identification</h3>
+                    <p>AI mengidentifikasi spesies bunga dengan tingkat kepercayaan yang tinggi dari database kami</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon gradient-orange">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h3>Information</h3>
+                    <p>Dapatkan informasi lengkap tentang bunga tersebut, termasuk nama, karakteristik, dan lainnya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="section tech-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Teknologi di Balik Layar</h2>
+                <p class="section-subtitle">Platform ini dibangun dengan teknologi machine learning terkini untuk hasil
+                    terbaik</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon gradient-green">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tech-content">
+                        <h4>Deep Learning Model</h4>
+                        <p>Menggunakan arsitektur MobileNetV2 yang dioptimasi untuk identifikasi bunga dengan akurasi
+                            dan performa tinggi dari perancangan cepat</p>
+                    </div>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon gradient-blue">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="tech-content">
+                        <h4>Computer Vision</h4>
+                        <p>Lihat penggunaan API komputer untuk mengekstrak warna, tekstur, bentuk, dan koordinasi fitur
+                            dari bunga untuk proses analisa</p>
+                    </div>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon gradient-purple">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="tech-content">
+                        <h4>Database Komprehensif</h4>
+                        <p>Dilengkapi dengan 102 spesies bunga dari berbagai lokasi dunia, lengkap dengan metadata dan
+                            informasi lengkap</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance Stats -->
+            <div class="performance-card glass-card">
+                <h3>Performa Sistem</h3>
+                <div class="performance-grid">
+                    <div class="performance-item">
+                        <div class="perf-label">
+                            <span>Overall Model</span>
+                            <span class="perf-value">94%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 94%"></div>
+                        </div>
+                    </div>
+
+                    <div class="performance-item">
+                        <div class="perf-label">
+                            <span>Validation Accure</span>
+                            <span class="perf-value">91%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 91%"></div>
+                        </div>
+                    </div>
+
+                    <div class="performance-item">
+                        <div class="perf-label">
+                            <span>Database Coverage</span>
+                            <span class="perf-value">95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="system-status">
+                    <div class="status-indicator"></div>
+                    <span>Sistem Siap Melakukan Klasifikasi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Angka yang Berbicara</h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-icon-bg gradient-green">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="stat-number gradient-text">102</div>
+                    <div class="stat-label">Spesies Bunga</div>
+                    <p>Data bunga dari seluruh dunia dalam sistem kami</p>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-icon-bg gradient-blue">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="stat-number gradient-text">91</div>
+                    <div class="stat-label">Akurasi AI</div>
+                    <p>Tingkat ketepatan dan hasil identifikasi</p>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-icon-bg gradient-purple">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="stat-number gradient-text">3</div>
+                    <div class="stat-label">Cara Identifikasi</div>
+                    <p>Upload, kamera, atau pencarian database</p>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-icon-bg gradient-orange">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-number gradient-text">24</div>
+                    <div class="stat-label">Jam Aktif</div>
+                    <p>Sistem berjalan 24/7 untuk Anda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Siap Memulai Petualangan?</h2>
+                <p class="cta-description">Bergabunglah dengan ribuan pengguna yang telah menjelajahi dunia bunga
+                    bersama kami</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-light btn-lg" data-href="{{ url_for('clasify_page') }}"
+                        onclick="window.location.href=this.dataset.href">
+                        <i class="fas fa-camera"></i>
+                        Mulai Klasifikasi
+                    </button>
+                    <button class="btn btn-outline btn-lg" data-href="{{ url_for('search_page') }}"
+                        onclick="window.location.href=this.dataset.href">
+                        <i class="fas fa-database"></i>
+                        Jelajahi Database
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-spa"></i>
+                    <span>AI Flower Classifier</span>
+                </div>
+                <p>Mengidentifikasi keindahan alam dengan kecerdasan buatan</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Flower Classifier. Dibuat dengan <i class="fas fa-heart"></i> untuk pecinta bunga</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <h3>Memproses...</h3>
+            <p>Menganalisis gambar dengan AI</p>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="result-modal">
+        <div class="modal-overlay" onclick="closeResultModal()"></div>
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeResultModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content" id="modalContent">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
