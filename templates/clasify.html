@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <script>
+        // Apply theme immediately before page renders
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <title>AI Flower Classifier - Klasifikasi</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="{{ url_for('index') }}" class="nav-brand">
+                <i class="fas fa-spa"></i>
+                <span>AI Flower Classifier</span>
+            </a>
+            <div class="nav-links">
+                <a href="{{ url_for('index') }}" class="nav-link {% if request.path in ['/', '/beranda'] %}active{% endif %}">Beranda</a>
+                <a href="{{ url_for('clasify_page') }}" class="nav-link {% if request.path == '/clasify' %}active{% endif %}">Klasifikasi</a>
+                <a href="{{ url_for('search_page') }}" class="nav-link {% if request.path == '/search' %}active{% endif %}">Pencarian</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Classification Section -->
+    <section class="section classification-section" style="padding-top: 120px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Klasifikasi Bunga</h2>
+                <p class="section-subtitle">Upload gambar atau gunakan kamera untuk mengidentifikasi jenis bunga</p>
+            </div>
+
+            <!-- Upload Card -->
+            <div class="method-card glass-card">
+                <div class="method-header">
+                    <div class="method-icon gradient-green">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="method-title">
+                        <h3>Upload Gambar</h3>
+                        <p>Pilih gambar bunga dari perangkat Anda</p>
+                    </div>
+                </div>
+
+                <div class="upload-zone" id="uploadZone">
+                    <div class="upload-content">
+                        <div class="upload-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h4>Klik atau Drag & Drop</h4>
+                        <p>Pilih gambar bunga dari komputer Anda</p>
+                        <span class="upload-info">Format: PNG, JPG, JPEG, BMP (Maks 10MB)</span>
+                    </div>
+                </div>
+                <input type="file" id="fileInput" accept="image/*" hidden>
+
+                <button class="btn btn-primary btn-block" onclick="uploadFile()">
+                    <i class="fas fa-robot"></i>
+                    Klasifikasi Gambar
+                </button>
+            </div>
+
+            <!-- Camera Card -->
+            <div class="method-card glass-card">
+                <div class="method-header">
+                    <div class="method-icon gradient-blue">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="method-title">
+                        <h3>Kamera Real-time</h3>
+                        <p>Gunakan kamera untuk mengidentifikasi bunga langsung</p>
+                    </div>
+                </div>
+
+                <div class="camera-container">
+                    <div class="camera-placeholder" id="cameraPlaceholder">
+                        <div class="camera-placeholder-content">
+                            <div class="camera-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h4>Kamera Belum Aktif</h4>
+                            <p>Klik tombol di bawah untuk mengaktifkan kamera</p>
+                        </div>
+                    </div>
+                    <div class="camera-wrapper" id="cameraWrapper" style="display: none;">
+                        <video id="video" autoplay playsinline></video>
+                        <canvas id="canvas" style="display: none;"></canvas>
+                    </div>
+                </div>
+
+                <div class="camera-controls">
+                    <button class="btn btn-success" id="toggleCameraBtn" onclick="toggleCamera()">
+                        <i class="fas fa-play"></i>
+                        Aktifkan Kamera
+                    </button>
+                    <button class="btn btn-secondary" id="switchCameraBtn" onclick="switchCamera()" disabled>
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button class="btn btn-primary" id="captureBtn" onclick="captureImage()" disabled>
+                        <i class="fas fa-camera"></i>
+                        Capture & Analisis
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results Container -->
+            <div id="resultsContainer" class="results-container"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-spa"></i>
+                    <span>AI Flower Classifier</span>
+                </div>
+                <p>Mengidentifikasi keindahan alam dengan kecerdasan buatan</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Flower Classifier. Dibuat dengan <i class="fas fa-heart"></i> untuk pecinta bunga</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <h3>Memproses...</h3>
+            <p>Menganalisis gambar dengan AI</p>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="result-modal">
+        <div class="modal-overlay" onclick="closeResultModal()"></div>
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeResultModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content" id="modalContent">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
