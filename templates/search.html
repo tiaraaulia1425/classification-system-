@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <script>
+        // Apply theme immediately before page renders
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <title>AI Flower Classifier - Pencarian</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="{{ url_for('index') }}" class="nav-brand">
+                <i class="fas fa-spa"></i>
+                <span>AI Flower Classifier</span>
+            </a>
+            <div class="nav-links">
+                <a href="{{ url_for('index') }}" class="nav-link {% if request.path in ['/', '/beranda'] %}active{% endif %}">Beranda</a>
+                <a href="{{ url_for('clasify_page') }}" class="nav-link {% if request.path == '/clasify' %}active{% endif %}">Klasifikasi</a>
+                <a href="{{ url_for('search_page') }}" class="nav-link {% if request.path == '/search' %}active{% endif %}">Pencarian</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Section -->
+    <section class="section search-section" style="padding-top: 120px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pencarian Bunga</h2>
+                <p class="section-subtitle">Cari dan temukan informasi lengkap tentang berbagai jenis bunga</p>
+            </div>
+
+            <div class="search-card glass-card">
+                <div class="search-container">
+                    <div class="search-icon">
+                        <i class="fas fa-spa" aria-hidden="true"></i>
+                    </div>
+                    <input type="text" id="searchInput" placeholder="Cari nama bunga, nama ilmiah, atau karakteristik..." />
+                    <button class="btn btn-primary search-button" onclick="searchFlowers()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <div class="search-suggestions">
+                    <span class="suggestion-label">Cepat :</span>
+                    <button class="suggestion-tag" onclick="quickSearch('rose')">Rose</button>
+                    <button class="suggestion-tag" onclick="quickSearch('sunflower')">Sunflower</button>
+                    <button class="suggestion-tag" onclick="quickSearch('lotus')">Lotus</button>
+                    <button class="suggestion-tag" onclick="quickSearch('orchid')">Orchid</button>
+                    <button class="suggestion-tag" onclick="quickSearch('lily')">Lily</button>
+                </div>
+            </div>
+
+            <!-- Search Results -->
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-spa"></i>
+                    <span>AI Flower Classifier</span>
+                </div>
+                <p>Mengidentifikasi keindahan alam dengan kecerdasan buatan</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Flower Classifier. Dibuat dengan <i class="fas fa-heart"></i> untuk pecinta bunga</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <h3>Memproses...</h3>
+            <p>Menganalisis gambar dengan AI</p>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="result-modal">
+        <div class="modal-overlay" onclick="closeResultModal()"></div>
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeResultModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content" id="modalContent">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
