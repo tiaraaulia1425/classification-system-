@@ -1,0 +1,1227 @@
+
+{
+  "1": {
+    "name": "pink primrose",
+    "scientific_name": "Primula vulgaris",
+    "physical_characteristics": "Bunga kecil berwarna merah muda cerah dengan lima kelopak membulat.",
+    "habitat": "Daerah beriklim sedang, padang rumput, dan taman.",
+    "benefits_or_meaning": "Melambangkan harapan dan awal yang baru.",
+    "description": {
+      "high_confidence": "Model sangat yakin bahwa bunga ini adalah Pink Primrose.",
+      "medium_confidence": "Ciri visual menunjukkan kemiripan kuat dengan Pink Primrose.",
+      "low_confidence": "Bunga menyerupai Pink Primrose, namun detail kurang jelas."
+    }
+  },
+  "2": {
+    "name": "hard-leaved pocket orchid",
+    "scientific_name": "Gastrodia sesamoides",
+    "physical_characteristics": "Anggrek kecil dengan daun keras dan bunga berwarna pucat.",
+    "habitat": "Hutan lembap dan area teduh.",
+    "benefits_or_meaning": "Melambangkan adaptasi dan keunikan.",
+    "description": {
+      "high_confidence": "Struktur khas anggrek terlihat sangat jelas.",
+      "medium_confidence": "Bentuk bunga cukup sesuai dengan jenis ini.",
+      "low_confidence": "Kemiripan ada, namun detail kurang kuat."
+    }
+  },
+  "3": {
+    "name": "canterbury bells",
+    "scientific_name": "Campanula medium",
+    "physical_characteristics": "Bunga berbentuk lonceng dengan warna biru, ungu, atau putih.",
+    "habitat": "Daerah beriklim sedang dan taman.",
+    "benefits_or_meaning": "Melambangkan rasa syukur.",
+    "description": {
+      "high_confidence": "Bentuk lonceng khas sangat jelas terlihat.",
+      "medium_confidence": "Struktur bunga cukup mendukung klasifikasi.",
+      "low_confidence": "Bunga menyerupai Canterbury Bells."
+    }
+  },
+  "4": {
+    "name": "sweet pea",
+    "scientific_name": "Lathyrus odoratus",
+    "physical_characteristics": "Bunga kecil berwarna lembut dengan aroma harum.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kebahagiaan dan kenangan manis.",
+    "description": {
+      "high_confidence": "Ciri warna dan bentuk bunga sangat khas Sweet Pea.",
+      "medium_confidence": "Kemiripan dengan Sweet Pea cukup kuat.",
+      "low_confidence": "Masih diperlukan detail tambahan."
+    }
+  },
+  "5": {
+    "name": "english marigold",
+    "scientific_name": "Calendula officinalis",
+    "physical_characteristics": "Bunga kuning atau oranye cerah dengan kelopak rapat.",
+    "habitat": "Daerah terbuka dan taman.",
+    "benefits_or_meaning": "Melambangkan kehangatan dan perlindungan.",
+    "description": {
+      "high_confidence": "Warna cerah khas English Marigold sangat jelas.",
+      "medium_confidence": "Bunga ini sangat mirip English Marigold.",
+      "low_confidence": "Detail bunga kurang optimal."
+    }
+  },
+  "6": {
+    "name": "tiger lily",
+    "scientific_name": "Lilium lancifolium",
+    "physical_characteristics": "Bunga oranye dengan bintik hitam dan kelopak melengkung.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kemakmuran.",
+    "description": {
+      "high_confidence": "Bintik dan warna khas Tiger Lily terlihat jelas.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Masih ada kemiripan dengan lily lain."
+    }
+  },
+  "7": {
+    "name": "moon orchid",
+    "scientific_name": "Phalaenopsis amabilis",
+    "physical_characteristics": "Bunga putih elegan dengan kelopak lebar.",
+    "habitat": "Daerah tropis dan lembap.",
+    "benefits_or_meaning": "Melambangkan keindahan dan kemurnian.",
+    "description": {
+      "high_confidence": "Ciri khas anggrek bulan sangat jelas.",
+      "medium_confidence": "Bentuk dan warna mendukung klasifikasi.",
+      "low_confidence": "Detail bunga belum sepenuhnya terlihat."
+    }
+  },
+  "8": {
+    "name": "bird of paradise",
+    "scientific_name": "Strelitzia reginae",
+    "physical_characteristics": "Bunga eksotis menyerupai burung dengan warna cerah.",
+    "habitat": "Daerah tropis.",
+    "benefits_or_meaning": "Melambangkan kebebasan dan keunikan.",
+    "description": {
+      "high_confidence": "Bentuk eksotis sangat khas Bird of Paradise.",
+      "medium_confidence": "Struktur bunga mendekati ciri utama.",
+      "low_confidence": "Sudut gambar kurang jelas."
+    }
+  },
+  "9": {
+    "name": "monkshood",
+    "scientific_name": "Aconitum napellus",
+    "physical_characteristics": "Bunga ungu berbentuk tudung.",
+    "habitat": "Daerah pegunungan dan beriklim dingin.",
+    "benefits_or_meaning": "Melambangkan kehati-hatian (tanaman beracun).",
+    "description": {
+      "high_confidence": "Bentuk tudung khas terlihat jelas.",
+      "medium_confidence": "Warna dan struktur mendukung.",
+      "low_confidence": "Bunga tampak mirip spesies lain."
+    }
+  },
+  "10": {
+    "name": "globe thistle",
+    "scientific_name": "Echinops ritro",
+    "physical_characteristics": "Bunga bulat berduri berwarna biru.",
+    "habitat": "Daerah kering dan terbuka.",
+    "benefits_or_meaning": "Melambangkan ketahanan.",
+    "description": {
+      "high_confidence": "Bentuk bola berduri sangat khas.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Detail duri kurang terlihat."
+    }
+  },
+  "11": {
+    "name": "snapdragon",
+    "scientific_name": "Antirrhinum majus",
+    "physical_characteristics": "Bunga berwarna cerah berbentuk seperti mulut.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kekuatan dan keanggunan.",
+    "description": {
+      "high_confidence": "Bentuk bunga sangat khas Snapdragon.",
+      "medium_confidence": "Struktur bunga cukup sesuai.",
+      "low_confidence": "Sudut gambar kurang mendukung."
+    }
+  },
+  "12": {
+    "name": "colt's foot",
+    "scientific_name": "Tussilago farfara",
+    "physical_characteristics": "Bunga kuning kecil muncul sebelum daun.",
+    "habitat": "Daerah lembap dan dingin.",
+    "benefits_or_meaning": "Digunakan dalam pengobatan tradisional.",
+    "description": {
+      "high_confidence": "Ciri kemunculan bunga sebelum daun terlihat jelas.",
+      "medium_confidence": "Bentuk dan warna cukup sesuai.",
+      "low_confidence": "Masih perlu konfirmasi visual."
+    }
+  },
+  "13": {
+    "name": "king protea",
+    "scientific_name": "Protea cynaroides",
+    "physical_characteristics": "Bunga besar dengan tampilan eksotis.",
+    "habitat": "Afrika Selatan.",
+    "benefits_or_meaning": "Melambangkan keberanian dan keindahan.",
+    "description": {
+      "high_confidence": "Ukuran dan struktur sangat khas King Protea.",
+      "medium_confidence": "Bunga sangat mirip Protea.",
+      "low_confidence": "Detail pusat bunga kurang jelas."
+    }
+  },
+  "14": {
+    "name": "spear thistle",
+    "scientific_name": "Cirsium vulgare",
+    "physical_characteristics": "Tanaman berduri dengan bunga ungu.",
+    "habitat": "Padang rumput.",
+    "benefits_or_meaning": "Melambangkan perlindungan.",
+    "description": {
+      "high_confidence": "Duri dan bunga ungu terlihat jelas.",
+      "medium_confidence": "Struktur mendukung klasifikasi.",
+      "low_confidence": "Kemiripan dengan thistle lain."
+    }
+  },
+  "15": {
+    "name": "yellow iris",
+    "scientific_name": "Iris pseudacorus",
+    "physical_characteristics": "Bunga kuning cerah dengan kelopak lebar.",
+    "habitat": "Daerah berair.",
+    "benefits_or_meaning": "Melambangkan harapan.",
+    "description": {
+      "high_confidence": "Warna dan bentuk iris sangat jelas.",
+      "medium_confidence": "Kemiripan cukup kuat.",
+      "low_confidence": "Sudut pengambilan kurang jelas."
+    }
+  },
+  "16": {
+    "name": "globe-flower",
+    "scientific_name": "Trollius europaeus",
+    "physical_characteristics": "Bunga bulat berwarna kuning cerah.",
+    "habitat": "Daerah dingin dan lembap.",
+    "benefits_or_meaning": "Melambangkan kebahagiaan.",
+    "description": {
+      "high_confidence": "Bentuk bulat khas terlihat jelas.",
+      "medium_confidence": "Warna dan struktur mendukung.",
+      "low_confidence": "Bunga masih sulit dibedakan."
+    }
+  },
+  "17": {
+    "name": "purple coneflower",
+    "scientific_name": "Echinacea purpurea",
+    "physical_characteristics": "Bunga ungu dengan pusat berduri.",
+    "habitat": "Padang rumput.",
+    "benefits_or_meaning": "Tanaman obat untuk imunitas.",
+    "description": {
+      "high_confidence": "Pusat berduri sangat khas.",
+      "medium_confidence": "Bunga ini sangat mirip.",
+      "low_confidence": "Detail pusat bunga kurang jelas."
+    }
+  },
+  "18": {
+    "name": "peruvian lily",
+    "scientific_name": "Alstroemeria aurea",
+    "physical_characteristics": "Bunga dengan pola garis unik.",
+    "habitat": "Amerika Selatan.",
+    "benefits_or_meaning": "Melambangkan persahabatan.",
+    "description": {
+      "high_confidence": "Pola kelopak sangat khas.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Masih perlu detail tambahan."
+    }
+  },
+  "19": {
+    "name": "balloon flower",
+    "scientific_name": "Platycodon grandiflorus",
+    "physical_characteristics": "Kuncup mengembang seperti balon sebelum mekar.",
+    "habitat": "Asia Timur.",
+    "benefits_or_meaning": "Melambangkan kejujuran.",
+    "description": {
+      "high_confidence": "Kuncup balon terlihat sangat jelas.",
+      "medium_confidence": "Bentuk bunga cukup mendukung.",
+      "low_confidence": "Detail kuncup kurang terlihat."
+    }
+  },
+  "20": {
+    "name": "giant white arum lily",
+    "scientific_name": "Zantedeschia aethiopica",
+    "physical_characteristics": "Bunga putih besar berbentuk terompet.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan kesucian.",
+    "description": {
+      "high_confidence": "Ukuran dan warna putih sangat khas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Sudut gambar kurang optimal."
+    }
+  },
+  "21": {
+    "name": "fire lily",
+    "scientific_name": "Lilium bulbiferum",
+    "physical_characteristics": "Bunga merah menyala dengan kelopak melengkung ke belakang dan bintik gelap.",
+    "habitat": "Daerah tropis dan subtropis dengan tanah lembap.",
+    "benefits_or_meaning": "Melambangkan keberanian dan semangat.",
+    "description": {
+      "high_confidence": "Warna merah terang dan bentuk kelopak khas Fire Lily terlihat sangat jelas.",
+      "medium_confidence": "Ciri visual cukup kuat mengarah pada Fire Lily.",
+      "low_confidence": "Bunga menyerupai Fire Lily, namun detail belum optimal."
+    }
+  },
+  "22": {
+    "name": "pincushion flower",
+    "scientific_name": "Scabiosa caucasica",
+    "physical_characteristics": "Bunga berbentuk bulat dengan benang sari menonjol seperti bantalan jarum.",
+    "habitat": "Padang rumput dan taman.",
+    "benefits_or_meaning": "Melambangkan kelembutan dan ketertarikan.",
+    "description": {
+      "high_confidence": "Benang sari menonjol sangat khas Pincushion Flower.",
+      "medium_confidence": "Bentuk bunga cukup sesuai dengan ciri utama.",
+      "low_confidence": "Kemiripan ada, namun detail pusat bunga kurang jelas."
+    }
+  },
+  "23": {
+    "name": "fritillary",
+    "scientific_name": "Fritillaria meleagris",
+    "physical_characteristics": "Bunga lonceng dengan pola kotak-kotak unik pada kelopak.",
+    "habitat": "Padang rumput lembap dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan keunikan dan keanggunan.",
+    "description": {
+      "high_confidence": "Pola kotak-kotak khas terlihat sangat jelas.",
+      "medium_confidence": "Motif kelopak cukup mengarah ke Fritillary.",
+      "low_confidence": "Pola belum terlihat jelas pada gambar."
+    }
+  },
+  "24": {
+    "name": "red ginger",
+    "scientific_name": "Alpinia purpurata",
+    "physical_characteristics": "Bunga tropis merah terang dengan susunan kelopak rapat.",
+    "habitat": "Daerah tropis yang lembap.",
+    "benefits_or_meaning": "Melambangkan keindahan dan energi.",
+    "description": {
+      "high_confidence": "Warna merah mencolok dan bentuk tropis sangat khas Red Ginger.",
+      "medium_confidence": "Struktur bunga cukup mendukung klasifikasi.",
+      "low_confidence": "Bunga mirip jahe hias lain."
+    }
+  },
+  "25": {
+    "name": "grape hyacinth",
+    "scientific_name": "Muscari armeniacum",
+    "physical_characteristics": "Bunga kecil berwarna biru keunguan tersusun rapat menyerupai anggur.",
+    "habitat": "Daerah beriklim sedang dan taman.",
+    "benefits_or_meaning": "Melambangkan ketulusan dan kepercayaan.",
+    "description": {
+      "high_confidence": "Susunan bunga menyerupai anggur terlihat jelas.",
+      "medium_confidence": "Warna dan bentuk mendukung klasifikasi.",
+      "low_confidence": "Detail susunan bunga kurang jelas."
+    }
+  },
+  "26": {
+    "name": "corn poppy",
+    "scientific_name": "Papaver rhoeas",
+    "physical_characteristics": "Bunga merah cerah dengan kelopak tipis dan pusat gelap.",
+    "habitat": "Ladang terbuka dan padang rumput.",
+    "benefits_or_meaning": "Melambangkan pengingat dan kedamaian.",
+    "description": {
+      "high_confidence": "Warna merah terang dan pusat gelap sangat khas Corn Poppy.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Kelopak kurang terlihat jelas."
+    }
+  },
+  "27": {
+    "name": "prince of wales feathers",
+    "scientific_name": "Strelitzia nicolai",
+    "physical_characteristics": "Tanaman hias besar dengan bunga eksotis dan daun lebar.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan kehormatan dan kemegahan.",
+    "description": {
+      "high_confidence": "Struktur eksotis dan ukuran besar sangat khas.",
+      "medium_confidence": "Bentuk bunga cukup mendukung identifikasi.",
+      "low_confidence": "Detail bunga kurang terlihat jelas."
+    }
+  },
+  "28": {
+    "name": "stemless gentian",
+    "scientific_name": "Gentiana acaulis",
+    "physical_characteristics": "Bunga biru tua berbentuk terompet yang tumbuh rendah.",
+    "habitat": "Pegunungan dan daerah alpine.",
+    "benefits_or_meaning": "Melambangkan keteguhan dan ketenangan.",
+    "description": {
+      "high_confidence": "Warna biru pekat dan bentuk terompet sangat khas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Bunga tampak kecil dan kurang jelas."
+    }
+  },
+  "29": {
+    "name": "artichoke",
+    "scientific_name": "Cynara cardunculus",
+    "physical_characteristics": "Bunga besar berwarna ungu dengan daun berduri.",
+    "habitat": "Daerah mediterania.",
+    "benefits_or_meaning": "Digunakan sebagai tanaman pangan dan simbol kesehatan.",
+    "description": {
+      "high_confidence": "Ukuran besar dan pusat ungu sangat khas Artichoke.",
+      "medium_confidence": "Struktur bunga mendukung klasifikasi.",
+      "low_confidence": "Detail daun kurang terlihat."
+    }
+  },
+  "30": {
+    "name": "sweet william",
+    "scientific_name": "Dianthus barbatus",
+    "physical_characteristics": "Bunga kecil berkelompok dengan warna cerah.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kesetiaan.",
+    "description": {
+      "high_confidence": "Kelompok bunga kecil khas Sweet William terlihat jelas.",
+      "medium_confidence": "Warna dan bentuk cukup mendukung.",
+      "low_confidence": "Detail bunga kurang jelas."
+    }
+  },
+  "31": {
+    "name": "carnation",
+    "scientific_name": "Dianthus caryophyllus",
+    "physical_characteristics": "Bunga dengan kelopak berlapis dan tepi bergerigi.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan cinta dan kekaguman.",
+    "description": {
+      "high_confidence": "Kelopak berlapis sangat khas Carnation.",
+      "medium_confidence": "Struktur bunga mendukung klasifikasi.",
+      "low_confidence": "Bunga mirip Dianthus lain."
+    }
+  },
+  "32": {
+    "name": "garden phlox",
+    "scientific_name": "Phlox paniculata",
+    "physical_characteristics": "Bunga kecil berkelompok dengan aroma harum.",
+    "habitat": "Taman dan padang rumput.",
+    "benefits_or_meaning": "Melambangkan keharmonisan.",
+    "description": {
+      "high_confidence": "Kelompok bunga dan warna cerah terlihat jelas.",
+      "medium_confidence": "Struktur cukup mendukung.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "33": {
+    "name": "love in the mist",
+    "scientific_name": "Nigella damascena",
+    "physical_characteristics": "Bunga biru lembut dengan daun halus menyerupai kabut.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan misteri dan keindahan.",
+    "description": {
+      "high_confidence": "Daun halus dan bunga biru sangat khas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Bentuk bunga kurang jelas."
+    }
+  },
+  "34": {
+    "name": "mexican aster",
+    "scientific_name": "Cosmos bipinnatus",
+    "physical_characteristics": "Bunga sederhana dengan kelopak tipis berwarna cerah.",
+    "habitat": "Daerah terbuka dan taman.",
+    "benefits_or_meaning": "Melambangkan kedamaian.",
+    "description": {
+      "high_confidence": "Kelopak tipis dan pusat bunga terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung klasifikasi.",
+      "low_confidence": "Kemiripan dengan aster lain."
+    }
+  },
+  "35": {
+    "name": "alpine sea holly",
+    "scientific_name": "Eryngium alpinum",
+    "physical_characteristics": "Bunga berduri berwarna biru metalik.",
+    "habitat": "Pegunungan alpine.",
+    "benefits_or_meaning": "Melambangkan ketahanan.",
+    "description": {
+      "high_confidence": "Warna biru metalik sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail duri kurang jelas."
+    }
+  },
+  "36": {
+    "name": "ruby-lipped cattleya",
+    "scientific_name": "Cattleya labiata",
+    "physical_characteristics": "Anggrek dengan bibir bunga berwarna merah rubi.",
+    "habitat": "Hutan tropis.",
+    "benefits_or_meaning": "Melambangkan keanggunan.",
+    "description": {
+      "high_confidence": "Bibir bunga merah rubi terlihat jelas.",
+      "medium_confidence": "Struktur anggrek mendukung.",
+      "low_confidence": "Detail warna kurang kuat."
+    }
+  },
+  "37": {
+    "name": "cape flower",
+    "scientific_name": "Gerbera jamesonii",
+    "physical_characteristics": "Bunga besar menyerupai daisy dengan warna cerah.",
+    "habitat": "Afrika Selatan dan taman.",
+    "benefits_or_meaning": "Melambangkan keceriaan.",
+    "description": {
+      "high_confidence": "Ukuran dan warna cerah sangat khas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Kemiripan dengan daisy lain."
+    }
+  },
+  "38": {
+    "name": "great masterwort",
+    "scientific_name": "Astrantia major",
+    "physical_characteristics": "Bunga kecil berkelompok dengan braktea mencolok.",
+    "habitat": "Padang rumput dan hutan terbuka.",
+    "benefits_or_meaning": "Melambangkan kekuatan dan perlindungan.",
+    "description": {
+      "high_confidence": "Struktur bunga berkelompok terlihat jelas.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Detail braktea kurang terlihat."
+    }
+  },
+  "39": {
+    "name": "siam tulip",
+    "scientific_name": "Curcuma alismatifolia",
+    "physical_characteristics": "Bunga berwarna ungu cerah dengan bentuk tegak.",
+    "habitat": "Daerah tropis Asia Tenggara.",
+    "benefits_or_meaning": "Melambangkan keanggunan tropis.",
+    "description": {
+      "high_confidence": "Warna ungu dan bentuk tegak sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Bunga mirip jahe hias lain."
+    }
+  },
+  "40": {
+    "name": "lenten rose",
+    "scientific_name": "Helleborus orientalis",
+    "physical_characteristics": "Bunga berwarna lembut yang mekar di akhir musim dingin.",
+    "habitat": "Daerah beriklim dingin.",
+    "benefits_or_meaning": "Melambangkan ketabahan.",
+    "description": {
+      "high_confidence": "Waktu mekar dan bentuk bunga sangat khas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "41": {
+    "name": "barbeton daisy",
+    "scientific_name": "Gerbera jamesonii",
+    "physical_characteristics": "Bunga besar menyerupai daisy dengan warna cerah dan pusat bunga besar.",
+    "habitat": "Daerah beriklim hangat dan taman.",
+    "benefits_or_meaning": "Melambangkan keceriaan dan optimisme.",
+    "description": {
+      "high_confidence": "Ukuran besar dan warna cerah khas Barbeton Daisy terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung identifikasi.",
+      "low_confidence": "Kemiripan dengan jenis daisy lain masih mungkin."
+    }
+  },
+  "42": {
+    "name": "daffodil",
+    "scientific_name": "Narcissus pseudonarcissus",
+    "physical_characteristics": "Bunga kuning cerah dengan bagian tengah berbentuk terompet.",
+    "habitat": "Daerah beriklim sedang dan padang rumput.",
+    "benefits_or_meaning": "Melambangkan harapan dan awal yang baru.",
+    "description": {
+      "high_confidence": "Bentuk terompet dan warna kuning khas Daffodil sangat jelas.",
+      "medium_confidence": "Ciri visual cukup kuat mengarah pada Daffodil.",
+      "low_confidence": "Detail bagian tengah kurang terlihat."
+    }
+  },
+  "43": {
+    "name": "sword lily",
+    "scientific_name": "Gladiolus communis",
+    "physical_characteristics": "Bunga bertangkai tinggi dengan susunan vertikal menyerupai pedang.",
+    "habitat": "Daerah beriklim sedang dan tropis.",
+    "benefits_or_meaning": "Melambangkan kekuatan dan integritas.",
+    "description": {
+      "high_confidence": "Susunan bunga vertikal sangat khas Sword Lily.",
+      "medium_confidence": "Bentuk tangkai cukup mendukung klasifikasi.",
+      "low_confidence": "Bunga mirip lili bertangkai lain."
+    }
+  },
+  "44": {
+    "name": "poinsettia",
+    "scientific_name": "Euphorbia pulcherrima",
+    "physical_characteristics": "Daun berwarna merah cerah yang sering disangka kelopak bunga.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan perayaan dan sukacita.",
+    "description": {
+      "high_confidence": "Daun merah cerah khas Poinsettia terlihat jelas.",
+      "medium_confidence": "Struktur tanaman mendukung identifikasi.",
+      "low_confidence": "Warna daun kurang dominan."
+    }
+  },
+  "45": {
+    "name": "bolero deep blue",
+    "scientific_name": "Rosa sp.",
+    "physical_characteristics": "Bunga mawar dengan warna biru keunguan dan aroma lembut.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan keanggunan dan misteri.",
+    "description": {
+      "high_confidence": "Warna biru keunguan khas Bolero Deep Blue sangat jelas.",
+      "medium_confidence": "Bentuk mawar cukup mendukung.",
+      "low_confidence": "Kemiripan dengan varietas mawar lain."
+    }
+  },
+  "46": {
+    "name": "wallflower",
+    "scientific_name": "Erysimum cheiri",
+    "physical_characteristics": "Bunga kecil berkelompok dengan aroma harum.",
+    "habitat": "Dinding batu dan taman.",
+    "benefits_or_meaning": "Melambangkan kesetiaan.",
+    "description": {
+      "high_confidence": "Kelompok bunga kecil dan warna khas terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail aroma tidak dapat terlihat."
+    }
+  },
+  "47": {
+    "name": "marigold",
+    "scientific_name": "Tagetes erecta",
+    "physical_characteristics": "Bunga bulat berwarna kuning atau oranye cerah.",
+    "habitat": "Taman dan daerah terbuka.",
+    "benefits_or_meaning": "Melambangkan kehangatan dan keberuntungan.",
+    "description": {
+      "high_confidence": "Warna cerah dan bentuk bulat sangat khas Marigold.",
+      "medium_confidence": "Struktur bunga mendukung klasifikasi.",
+      "low_confidence": "Kemiripan dengan bunga kuning lain."
+    }
+  },
+  "48": {
+    "name": "buttercup",
+    "scientific_name": "Ranunculus acris",
+    "physical_characteristics": "Bunga kecil berwarna kuning cerah dengan kelopak mengkilap.",
+    "habitat": "Padang rumput dan daerah lembap.",
+    "benefits_or_meaning": "Melambangkan keceriaan dan kesederhanaan.",
+    "description": {
+      "high_confidence": "Kelopak mengkilap khas Buttercup terlihat jelas.",
+      "medium_confidence": "Warna dan bentuk cukup mendukung.",
+      "low_confidence": "Detail kilap kelopak kurang terlihat."
+    }
+  },
+  "49": {
+    "name": "oxeye daisy",
+    "scientific_name": "Leucanthemum vulgare",
+    "physical_characteristics": "Kelopak putih dengan pusat bunga kuning.",
+    "habitat": "Padang rumput dan lahan terbuka.",
+    "benefits_or_meaning": "Melambangkan kemurnian dan kesederhanaan.",
+    "description": {
+      "high_confidence": "Kelopak putih dan pusat kuning sangat khas Oxeye Daisy.",
+      "medium_confidence": "Struktur bunga mendukung identifikasi.",
+      "low_confidence": "Kemiripan dengan daisy lain."
+    }
+  },
+  "50": {
+    "name": "common dandelion",
+    "scientific_name": "Taraxacum officinale",
+    "physical_characteristics": "Bunga kuning cerah yang berubah menjadi bola biji putih.",
+    "habitat": "Padang rumput dan daerah terbuka.",
+    "benefits_or_meaning": "Digunakan sebagai tanaman obat dan pangan.",
+    "description": {
+      "high_confidence": "Bentuk bunga kuning khas Dandelion terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Tahap pertumbuhan belum jelas."
+    }
+  },
+  "51": {
+    "name": "petunia",
+    "scientific_name": "Petunia hybrida",
+    "physical_characteristics": "Bunga berbentuk terompet dengan warna beragam.",
+    "habitat": "Taman dan pot hias.",
+    "benefits_or_meaning": "Melambangkan ketenangan dan kenyamanan.",
+    "description": {
+      "high_confidence": "Bentuk terompet dan warna khas Petunia terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung klasifikasi.",
+      "low_confidence": "Kemiripan dengan bunga terompet lain."
+    }
+  },
+  "52": {
+    "name": "wild pansy",
+    "scientific_name": "Viola tricolor",
+    "physical_characteristics": "Bunga kecil dengan kombinasi warna ungu, kuning, dan putih.",
+    "habitat": "Padang rumput dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan ingatan dan kasih sayang.",
+    "description": {
+      "high_confidence": "Kombinasi warna khas Wild Pansy terlihat jelas.",
+      "medium_confidence": "Pola warna cukup mendukung.",
+      "low_confidence": "Detail kelopak kurang terlihat."
+    }
+  },
+  "53": {
+    "name": "primula",
+    "scientific_name": "Primula veris",
+    "physical_characteristics": "Bunga kecil berwarna kuning atau cerah lainnya.",
+    "habitat": "Padang rumput dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan harapan.",
+    "description": {
+      "high_confidence": "Bentuk dan warna khas Primula terlihat jelas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Kemiripan dengan Primrose lain."
+    }
+  },
+  "54": {
+    "name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "physical_characteristics": "Bunga besar berwarna kuning dengan pusat gelap.",
+    "habitat": "Daerah terbuka dengan sinar matahari penuh.",
+    "benefits_or_meaning": "Melambangkan kesetiaan dan energi positif.",
+    "description": {
+      "high_confidence": "Ukuran besar dan warna kuning khas Sunflower sangat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Pusat bunga kurang terlihat."
+    }
+  },
+  "55": {
+    "name": "pelargonium",
+    "scientific_name": "Pelargonium hortorum",
+    "physical_characteristics": "Bunga berwarna cerah dengan daun beraroma khas.",
+    "habitat": "Taman dan pot hias.",
+    "benefits_or_meaning": "Melambangkan kenyamanan dan kehangatan.",
+    "description": {
+      "high_confidence": "Bentuk bunga dan daun khas Pelargonium terlihat jelas.",
+      "medium_confidence": "Struktur cukup mendukung.",
+      "low_confidence": "Kemiripan dengan Geranium lain."
+    }
+  },
+  "56": {
+    "name": "bishop of llandaff",
+    "scientific_name": "Dahlia coccinea",
+    "physical_characteristics": "Bunga merah tua dengan pusat gelap.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kekuatan dan keanggunan.",
+    "description": {
+      "high_confidence": "Warna merah tua khas sangat jelas.",
+      "medium_confidence": "Struktur dahlia mendukung.",
+      "low_confidence": "Detail pusat bunga kurang jelas."
+    }
+  },
+  "57": {
+    "name": "gaura",
+    "scientific_name": "Gaura lindheimeri",
+    "physical_characteristics": "Bunga kecil putih atau merah muda pada batang ramping.",
+    "habitat": "Daerah terbuka dan kering.",
+    "benefits_or_meaning": "Melambangkan kelembutan.",
+    "description": {
+      "high_confidence": "Batang ramping dan bunga kecil terlihat jelas.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Bunga tampak terlalu kecil."
+    }
+  },
+  "58": {
+    "name": "geranium",
+    "scientific_name": "Geranium pratense",
+    "physical_characteristics": "Bunga berwarna cerah dengan lima kelopak.",
+    "habitat": "Padang rumput dan taman.",
+    "benefits_or_meaning": "Melambangkan kesehatan dan perlindungan.",
+    "description": {
+      "high_confidence": "Bentuk lima kelopak khas Geranium terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Kemiripan dengan Pelargonium."
+    }
+  },
+  "59": {
+    "name": "orange dahlia",
+    "scientific_name": "Dahlia pinnata",
+    "physical_characteristics": "Bunga berlapis dengan warna oranye cerah.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kegembiraan.",
+    "description": {
+      "high_confidence": "Warna oranye dan kelopak berlapis sangat khas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail kelopak kurang terlihat."
+    }
+  },
+  "60": {
+    "name": "pink-yellow dahlia",
+    "scientific_name": "Dahlia pinnata",
+    "physical_characteristics": "Bunga berlapis dengan gradasi warna merah muda dan kuning.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan keindahan dan keseimbangan.",
+    "description": {
+      "high_confidence": "Gradasi warna khas Pink-Yellow Dahlia terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Warna belum terlalu kontras."
+    }
+  },
+  "61": {
+    "name": "cautleya spicata",
+    "scientific_name": "Cautleya spicata",
+    "physical_characteristics": "Bunga tropis berwarna merah dengan bentuk menyerupai jahe hias.",
+    "habitat": "Daerah tropis dan pegunungan Asia.",
+    "benefits_or_meaning": "Melambangkan keindahan eksotis.",
+    "description": {
+      "high_confidence": "Bentuk jahe hias dan warna merah khas terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung identifikasi.",
+      "low_confidence": "Detail kelopak belum terlihat jelas."
+    }
+  },
+  "62": {
+    "name": "japanese anemone",
+    "scientific_name": "Anemone hupehensis",
+    "physical_characteristics": "Bunga putih atau merah muda dengan pusat kuning.",
+    "habitat": "Daerah beriklim sedang dan taman.",
+    "benefits_or_meaning": "Melambangkan ketulusan dan kesabaran.",
+    "description": {
+      "high_confidence": "Kelopak tipis dan pusat kuning khas Anemone terlihat jelas.",
+      "medium_confidence": "Bentuk bunga cukup sesuai.",
+      "low_confidence": "Kemiripan dengan windflower lain."
+    }
+  },
+  "63": {
+    "name": "black-eyed susan",
+    "scientific_name": "Rudbeckia hirta",
+    "physical_characteristics": "Kelopak kuning cerah dengan pusat hitam kontras.",
+    "habitat": "Padang rumput dan daerah terbuka.",
+    "benefits_or_meaning": "Melambangkan semangat dan keadilan.",
+    "description": {
+      "high_confidence": "Pusat hitam dan kelopak kuning sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail pusat bunga kurang jelas."
+    }
+  },
+  "64": {
+    "name": "silverbush",
+    "scientific_name": "Convolvulus cneorum",
+    "physical_characteristics": "Daun keperakan dengan bunga putih lembut.",
+    "habitat": "Daerah kering dan berbatu.",
+    "benefits_or_meaning": "Melambangkan ketenangan.",
+    "description": {
+      "high_confidence": "Daun keperakan khas Silverbush terlihat jelas.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Bunga kurang terlihat jelas."
+    }
+  },
+  "65": {
+    "name": "californian poppy",
+    "scientific_name": "Eschscholzia californica",
+    "physical_characteristics": "Bunga oranye cerah dengan kelopak halus.",
+    "habitat": "Daerah kering dan terbuka.",
+    "benefits_or_meaning": "Melambangkan harapan dan ketahanan.",
+    "description": {
+      "high_confidence": "Warna oranye khas sangat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Kelopak belum terlihat jelas."
+    }
+  },
+  "66": {
+    "name": "osteospermum",
+    "scientific_name": "Osteospermum ecklonis",
+    "physical_characteristics": "Bunga menyerupai daisy dengan warna cerah dan pusat kontras.",
+    "habitat": "Daerah beriklim hangat.",
+    "benefits_or_meaning": "Melambangkan keceriaan.",
+    "description": {
+      "high_confidence": "Bentuk daisy dan warna kontras sangat khas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Kemiripan dengan daisy lain."
+    }
+  },
+  "67": {
+    "name": "spring crocus",
+    "scientific_name": "Crocus vernus",
+    "physical_characteristics": "Bunga kecil berwarna ungu, putih, atau kuning.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kebangkitan dan awal baru.",
+    "description": {
+      "high_confidence": "Ukuran kecil dan warna khas Crocus terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "68": {
+    "name": "bearded iris",
+    "scientific_name": "Iris germanica",
+    "physical_characteristics": "Bunga besar dengan rambut halus pada kelopak tengah.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kebijaksanaan dan kepercayaan.",
+    "description": {
+      "high_confidence": "Rambut halus pada kelopak sangat khas.",
+      "medium_confidence": "Struktur iris cukup mendukung.",
+      "low_confidence": "Detail rambut kurang terlihat."
+    }
+  },
+  "69": {
+    "name": "windflower",
+    "scientific_name": "Anemone coronaria",
+    "physical_characteristics": "Bunga sederhana dengan warna cerah dan pusat gelap.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan ketulusan.",
+    "description": {
+      "high_confidence": "Kelopak dan pusat bunga khas terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Kemiripan dengan anemone lain."
+    }
+  },
+  "70": {
+    "name": "tree poppy",
+    "scientific_name": "Romneya coulteri",
+    "physical_characteristics": "Bunga putih besar dengan pusat kuning mencolok.",
+    "habitat": "Daerah kering dan berbatu.",
+    "benefits_or_meaning": "Melambangkan keteguhan.",
+    "description": {
+      "high_confidence": "Ukuran besar dan pusat kuning sangat khas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail kelopak kurang terlihat."
+    }
+  },
+  "71": {
+    "name": "gazania",
+    "scientific_name": "Gazania rigens",
+    "physical_characteristics": "Bunga cerah dengan pola kontras di tengah.",
+    "habitat": "Daerah kering dan cerah.",
+    "benefits_or_meaning": "Melambangkan keceriaan.",
+    "description": {
+      "high_confidence": "Pola kontras khas Gazania terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail pola kurang jelas."
+    }
+  },
+  "72": {
+    "name": "azalea",
+    "scientific_name": "Rhododendron simsii",
+    "physical_characteristics": "Semak berbunga dengan warna cerah dan melimpah.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan keindahan dan kelembutan.",
+    "description": {
+      "high_confidence": "Kelimpahan bunga dan warna khas terlihat jelas.",
+      "medium_confidence": "Struktur tanaman mendukung.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "73": {
+    "name": "water lily/teratai",
+    "scientific_name": "Nymphaea alba",
+    "physical_characteristics": "Bunga air dengan kelopak lebar mengapung.",
+    "habitat": "Kolam dan perairan tenang.",
+    "benefits_or_meaning": "Melambangkan kesucian dan ketenangan.",
+    "description": {
+      "high_confidence": "Posisi mengapung dan kelopak lebar sangat khas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Detail pusat bunga kurang terlihat."
+    }
+  },
+  "74": {
+    "name": "rose",
+    "scientific_name": "Rosa spp.",
+    "physical_characteristics": "Bunga berlapis dengan duri pada batang.",
+    "habitat": "Taman dan daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan cinta dan keindahan.",
+    "description": {
+      "high_confidence": "Kelopak berlapis khas mawar terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Kemiripan dengan varietas mawar lain."
+    }
+  },
+  "75": {
+    "name": "thorn apple",
+    "scientific_name": "Datura stramonium",
+    "physical_characteristics": "Bunga putih besar berbentuk terompet.",
+    "habitat": "Daerah terbuka dan hangat.",
+    "benefits_or_meaning": "Dikenal sebagai tanaman beracun, simbol kehati-hatian.",
+    "description": {
+      "high_confidence": "Bentuk terompet besar sangat khas Thorn Apple.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Kemiripan dengan bunga terompet lain."
+    }
+  },
+  "76": {
+    "name": "morning glory",
+    "scientific_name": "Ipomoea purpurea",
+    "physical_characteristics": "Bunga berbentuk terompet yang mekar di pagi hari.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan kehidupan baru.",
+    "description": {
+      "high_confidence": "Bentuk terompet dan warna khas terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Waktu mekar tidak terlihat."
+    }
+  },
+  "77": {
+    "name": "passion flower",
+    "scientific_name": "Passiflora caerulea",
+    "physical_characteristics": "Bunga dengan struktur kompleks dan benang sari mencolok.",
+    "habitat": "Daerah tropis.",
+    "benefits_or_meaning": "Melambangkan spiritualitas.",
+    "description": {
+      "high_confidence": "Struktur kompleks khas Passion Flower sangat jelas.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Detail benang sari kurang terlihat."
+    }
+  },
+  "78": {
+    "name": "lotus",
+    "scientific_name": "Nelumbo nucifera",
+    "physical_characteristics": "Bunga air besar dengan kelopak merah muda atau putih.",
+    "habitat": "Kolam dan perairan tenang.",
+    "benefits_or_meaning": "Melambangkan kesucian dan pencerahan.",
+    "description": {
+      "high_confidence": "Bentuk bunga air besar sangat khas Lotus.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail kelopak kurang jelas."
+    }
+  },
+  "79": {
+    "name": "toad lily",
+    "scientific_name": "Tricyrtis hirta",
+    "physical_characteristics": "Bunga kecil dengan pola bintik unik.",
+    "habitat": "Daerah lembap dan teduh.",
+    "benefits_or_meaning": "Melambangkan keunikan.",
+    "description": {
+      "high_confidence": "Pola bintik khas Toad Lily terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail pola kurang terlihat."
+    }
+  },
+  "80": {
+    "name": "anthurium",
+    "scientific_name": "Anthurium andraeanum",
+    "physical_characteristics": "Bunga mengkilap berbentuk hati dengan spadiks menonjol.",
+    "habitat": "Daerah tropis.",
+    "benefits_or_meaning": "Melambangkan keramahan dan kebahagiaan.",
+    "description": {
+      "high_confidence": "Bentuk hati dan permukaan mengkilap sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail spadiks kurang jelas."
+    }
+  },
+  "81": {
+    "name": "frangipani",
+    "scientific_name": "Plumeria rubra",
+    "physical_characteristics": "Bunga berwarna putih, kuning, atau merah muda dengan aroma harum.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan ketenangan dan keabadian.",
+    "description": {
+      "high_confidence": "Bentuk kelopak dan aroma khas Frangipani sangat jelas.",
+      "medium_confidence": "Ciri visual cukup kuat mengarah ke Frangipani.",
+      "low_confidence": "Kemiripan dengan bunga tropis lain."
+    }
+  },
+  "82": {
+    "name": "clematis",
+    "scientific_name": "Clematis vitalba",
+    "physical_characteristics": "Tanaman merambat dengan bunga besar berwarna cerah.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kecerdasan dan kreativitas.",
+    "description": {
+      "high_confidence": "Bunga besar dan bentuk khas Clematis terlihat jelas.",
+      "medium_confidence": "Struktur tanaman cukup mendukung.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "83": {
+    "name": "hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "physical_characteristics": "Bunga besar berwarna cerah dengan putik panjang menonjol.",
+    "habitat": "Daerah tropis.",
+    "benefits_or_meaning": "Melambangkan keindahan dan keramahan.",
+    "description": {
+      "high_confidence": "Putik panjang dan kelopak besar sangat khas Hibiscus.",
+      "medium_confidence": "Ciri visual cukup mendukung.",
+      "low_confidence": "Sudut pengambilan kurang jelas."
+    }
+  },
+  "84": {
+    "name": "columbine",
+    "scientific_name": "Aquilegia vulgaris",
+    "physical_characteristics": "Bunga unik dengan taji panjang di belakang kelopak.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kebijaksanaan.",
+    "description": {
+      "high_confidence": "Taji panjang khas Columbine terlihat jelas.",
+      "medium_confidence": "Bentuk bunga cukup mendukung.",
+      "low_confidence": "Detail taji kurang terlihat."
+    }
+  },
+  "85": {
+    "name": "desert-rose",
+    "scientific_name": "Adenium obesum",
+    "physical_characteristics": "Tanaman dengan batang menggembung dan bunga merah muda cerah.",
+    "habitat": "Daerah kering dan panas.",
+    "benefits_or_meaning": "Melambangkan ketahanan dan keindahan.",
+    "description": {
+      "high_confidence": "Batang menggembung dan bunga cerah sangat khas.",
+      "medium_confidence": "Struktur tanaman mendukung.",
+      "low_confidence": "Detail batang kurang terlihat."
+    }
+  },
+  "86": {
+    "name": "tree mallow",
+    "scientific_name": "Lavatera arborea",
+    "physical_characteristics": "Tanaman semak dengan bunga ungu atau merah muda.",
+    "habitat": "Daerah pesisir dan beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan perlindungan.",
+    "description": {
+      "high_confidence": "Ukuran semak dan warna bunga khas terlihat jelas.",
+      "medium_confidence": "Struktur tanaman cukup mendukung.",
+      "low_confidence": "Kemiripan dengan mallow lain."
+    }
+  },
+  "87": {
+    "name": "magnolia",
+    "scientific_name": "Magnolia grandiflora",
+    "physical_characteristics": "Bunga besar berwarna putih dengan aroma harum.",
+    "habitat": "Daerah beriklim hangat.",
+    "benefits_or_meaning": "Melambangkan kemurnian dan keanggunan.",
+    "description": {
+      "high_confidence": "Ukuran besar dan warna putih khas Magnolia terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail pusat bunga kurang terlihat."
+    }
+  },
+  "88": {
+    "name": "cyclamen",
+    "scientific_name": "Cyclamen persicum",
+    "physical_characteristics": "Bunga dengan kelopak terbalik berwarna lembut.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan ketulusan dan empati.",
+    "description": {
+      "high_confidence": "Kelopak terbalik khas Cyclamen terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail kelopak kurang jelas."
+    }
+  },
+  "89": {
+    "name": "watercress",
+    "scientific_name": "Nasturtium officinale",
+    "physical_characteristics": "Tanaman air dengan bunga kecil putih.",
+    "habitat": "Perairan dangkal dan sungai kecil.",
+    "benefits_or_meaning": "Digunakan sebagai sayuran dan tanaman herbal.",
+    "description": {
+      "high_confidence": "Lingkungan air dan bunga kecil terlihat jelas.",
+      "medium_confidence": "Struktur tanaman cukup mendukung.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "90": {
+    "name": "canna lily",
+    "scientific_name": "Canna indica",
+    "physical_characteristics": "Bunga besar berwarna merah atau oranye dengan daun lebar.",
+    "habitat": "Daerah tropis.",
+    "benefits_or_meaning": "Melambangkan kepercayaan diri.",
+    "description": {
+      "high_confidence": "Daun lebar dan bunga besar khas Canna Lily terlihat jelas.",
+      "medium_confidence": "Struktur tanaman mendukung.",
+      "low_confidence": "Detail bunga kurang jelas."
+    }
+  },
+  "91": {
+    "name": "hippeastrum",
+    "scientific_name": "Hippeastrum puniceum",
+    "physical_characteristics": "Bunga besar berbentuk terompet dengan warna mencolok.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan kebanggaan.",
+    "description": {
+      "high_confidence": "Bentuk terompet besar sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Kemiripan dengan amaryllis lain."
+    }
+  },
+  "92": {
+    "name": "bee balm",
+    "scientific_name": "Monarda didyma",
+    "physical_characteristics": "Bunga merah cerah dengan bentuk berumbai.",
+    "habitat": "Padang rumput dan taman.",
+    "benefits_or_meaning": "Menarik lebah dan melambangkan keharmonisan.",
+    "description": {
+      "high_confidence": "Bentuk berumbai khas Bee Balm terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail rumbai kurang terlihat."
+    }
+  },
+  "93": {
+    "name": "ball moss",
+    "scientific_name": "Tillandsia recurvata",
+    "physical_characteristics": "Tanaman epifit berbentuk bola berwarna abu-abu kehijauan.",
+    "habitat": "Menempel pada pohon di daerah hangat.",
+    "benefits_or_meaning": "Melambangkan adaptasi.",
+    "description": {
+      "high_confidence": "Bentuk bola khas Ball Moss terlihat jelas.",
+      "medium_confidence": "Struktur tanaman cukup mendukung.",
+      "low_confidence": "Kemiripan dengan tanaman epifit lain."
+    }
+  },
+  "94": {
+    "name": "foxglove",
+    "scientific_name": "Digitalis purpurea",
+    "physical_characteristics": "Bunga lonceng bertingkat dengan warna ungu atau merah muda.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kehati-hatian (tanaman beracun).",
+    "description": {
+      "high_confidence": "Susunan lonceng bertingkat sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Detail lonceng kurang terlihat."
+    }
+  },
+  "95": {
+    "name": "bougainvillea",
+    "scientific_name": "Bougainvillea spectabilis",
+    "physical_characteristics": "Tanaman merambat dengan braktea berwarna mencolok.",
+    "habitat": "Daerah tropis dan kering.",
+    "benefits_or_meaning": "Melambangkan semangat dan keindahan.",
+    "description": {
+      "high_confidence": "Braktea berwarna cerah sangat khas Bougainvillea.",
+      "medium_confidence": "Struktur tanaman mendukung.",
+      "low_confidence": "Detail bunga asli kurang terlihat."
+    }
+  },
+  "96": {
+    "name": "camellia",
+    "scientific_name": "Camellia japonica",
+    "physical_characteristics": "Bunga berlapis rapi dengan warna putih, merah, atau merah muda.",
+    "habitat": "Daerah beriklim sedang.",
+    "benefits_or_meaning": "Melambangkan kesempurnaan dan cinta.",
+    "description": {
+      "high_confidence": "Kelopak berlapis rapi sangat khas Camellia.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Kemiripan dengan bunga hias lain."
+    }
+  },
+  "97": {
+    "name": "mallow",
+    "scientific_name": "Malva sylvestris",
+    "physical_characteristics": "Bunga sederhana berwarna ungu atau merah muda.",
+    "habitat": "Padang rumput dan daerah terbuka.",
+    "benefits_or_meaning": "Digunakan sebagai tanaman herbal.",
+    "description": {
+      "high_confidence": "Bentuk sederhana dan warna khas terlihat jelas.",
+      "medium_confidence": "Struktur bunga mendukung.",
+      "low_confidence": "Detail kelopak kurang terlihat."
+    }
+  },
+  "98": {
+    "name": "mexican petunia",
+    "scientific_name": "Ruellia simplex",
+    "physical_characteristics": "Bunga ungu cerah berbentuk terompet.",
+    "habitat": "Daerah tropis dan subtropis.",
+    "benefits_or_meaning": "Melambangkan ketahanan.",
+    "description": {
+      "high_confidence": "Warna ungu dan bentuk terompet sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Kemiripan dengan petunia lain."
+    }
+  },
+  "99": {
+    "name": "bromelia",
+    "scientific_name": "Bromelia spp.",
+    "physical_characteristics": "Daun tersusun roset dengan warna cerah.",
+    "habitat": "Daerah tropis.",
+    "benefits_or_meaning": "Melambangkan eksotisme.",
+    "description": {
+      "high_confidence": "Susunan roset dan warna cerah sangat khas.",
+      "medium_confidence": "Struktur tanaman mendukung.",
+      "low_confidence": "Detail bunga kurang terlihat."
+    }
+  },
+  "100": {
+    "name": "blanket flower",
+    "scientific_name": "Gaillardia aristata",
+    "physical_characteristics": "Bunga dengan kombinasi warna merah dan kuning cerah.",
+    "habitat": "Padang rumput dan daerah kering.",
+    "benefits_or_meaning": "Melambangkan keceriaan dan ketahanan.",
+    "description": {
+      "high_confidence": "Kombinasi warna khas Blanket Flower terlihat jelas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Warna belum terlalu kontras."
+    }
+  },
+  "101": {
+    "name": "trumpet creeper",
+    "scientific_name": "Campsis radicans",
+    "physical_characteristics": "Bunga berbentuk terompet berwarna oranye terang.",
+    "habitat": "Tanaman merambat di daerah hangat.",
+    "benefits_or_meaning": "Melambangkan daya tarik dan vitalitas.",
+    "description": {
+      "high_confidence": "Bentuk terompet dan warna oranye sangat khas.",
+      "medium_confidence": "Struktur bunga cukup mendukung.",
+      "low_confidence": "Kemiripan dengan tanaman merambat lain."
+    }
+  },
+  "102": {
+    "name": "blackberry lily",
+    "scientific_name": "Iris domestica",
+    "physical_characteristics": "Bunga oranye berbintik merah dengan biji hitam mencolok.",
+    "habitat": "Daerah subtropis dan taman.",
+    "benefits_or_meaning": "Melambangkan keunikan dan keberanian.",
+    "description": {
+      "high_confidence": "Pola bintik dan struktur bunga sangat khas Blackberry Lily.",
+      "medium_confidence": "Ciri visual cukup kuat.",
+      "low_confidence": "Detail bintik kurang terlihat."
+    }
+  }
+}
